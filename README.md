@@ -1,1 +1,0 @@
-# algo-katas-101
