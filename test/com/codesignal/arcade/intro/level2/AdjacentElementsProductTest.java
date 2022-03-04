@@ -34,4 +34,46 @@ public class AdjacentElementsProductTest {
         int actual = product.solution(inputArray);
         assertEquals(6, actual);
     }
+
+    @org.junit.Test
+    public void test4() {
+        inputArray = new int[]{1, 2, 3, 0};
+        int actual = product.solution(inputArray);
+        assertEquals(6, actual);
+    }
+
+    @org.junit.Test
+    public void test5() {
+        inputArray = new int[]{9, 5, 10, 2, 24, -1, -48};
+        int actual = product.solution(inputArray);
+        assertEquals(50, actual);
+    }
+
+    @org.junit.Test
+    public void test6() {
+        inputArray = new int[]{5, 6, -4, 2, 3, 2, -23};
+        int actual = product.solution(inputArray);
+        assertEquals(30, actual);
+    }
+
+    @org.junit.Test
+    public void test7() {
+        inputArray = new int[]{4, 1, 2, 3, 1, 5};
+        int actual = product.solution(inputArray);
+        assertEquals(6, actual);
+    }
+
+    @org.junit.Test
+    public void test8() {
+        inputArray = new int[]{-23, 4, -3, 8, -12};
+        int actual = product.solution(inputArray);
+        assertEquals(-12, actual);
+    }
+
+    @org.junit.Test
+    public void test9() {
+        inputArray = new int[]{1, 0, 1, 0, 1000};
+        int actual = product.solution(inputArray);
+        assertEquals(0, actual);
+    }
 }
